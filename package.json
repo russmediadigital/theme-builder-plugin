@@ -1,6 +1,6 @@
 {
-  "name": "unplugin-starter",
-  "version": "0.1.0",
+  "name": "theme-builder-plugin",
+  "version": "0.2.0",
   "description": "Register global imports on demand for Vite and Webpack",
   "keywords": [
     "unplugin",
@@ -9,13 +9,13 @@
     "rollup",
     "transform"
   ],
-  "homepage": "https://github.com/antfu/unplugin-starter#readme",
+  "homepage": "https://github.com/russmediadigital/theme-builder-plugin#readme",
   "bugs": {
-    "url": "https://github.com/antfu/unplugin-starter/issues"
+    "url": "https://github.com/russmediadigital/theme-builder-plugin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/unplugin-starter.git"
+    "url": "git+https://github.com/russmediadigital/theme-builder-plugin.git"
   },
   "license": "MIT",
   "exports": {
