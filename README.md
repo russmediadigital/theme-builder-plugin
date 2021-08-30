@@ -22,7 +22,7 @@ To release a new version, run: `pnpm run release`
 ## Install
 
 ```bash
-npm i theme-builder-plugin
+npm i @russmedia/theme-builder-plugin
 ```
 
 <details>
