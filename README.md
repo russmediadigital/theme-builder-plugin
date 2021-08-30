@@ -1,6 +1,6 @@
-# unplugin-starter
+# theme-builder-plugin
 
-[![NPM version](https://img.shields.io/npm/v/unplugin-starter?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-starter)
+[![NPM version](https://img.shields.io/npm/v/theme-builder-plugin?color=a1b858&label=)](https://www.npmjs.com/package/@russmedia/theme-builder-plugin)
 
 Starter template for [unplugin](https://github.com/unjs/unplugin).
 
@@ -9,10 +9,10 @@ Starter template for [unplugin](https://github.com/unjs/unplugin).
 To use this template, clone it down using:
 
 ```bash
-npx degit antfu/unplugin-starter my-unplugin
+npx degit antfu/theme-builder-plugin my-unplugin
 ```
 
-And do a global replace of `unplugin-starter` with your plugin name.
+And do a global replace of `theme-builder-plugin` with your plugin name.
 
 Then you can start developing your unplugin 🔥
 
@@ -22,7 +22,7 @@ To release a new version, run: `pnpm run release`
 ## Install
 
 ```bash
-npm i unplugin-starter
+npm i theme-builder-plugin
 ```
 
 <details>
@@ -30,7 +30,7 @@ npm i unplugin-starter
 
 ```ts
 // vite.config.ts
-import Starter from 'unplugin-starter/vite'
+import Starter from 'theme-builder-plugin/vite'
 
 export default defineConfig({
   plugins: [
@@ -48,7 +48,7 @@ Example: [`playground/`](./playground/)
 
 ```ts
 // rollup.config.js
-import Starter from 'unplugin-starter/rollup'
+import Starter from 'theme-builder-plugin/rollup'
 
 export default {
   plugins: [
@@ -68,7 +68,7 @@ export default {
 module.exports = {
   /* ... */
   plugins: [
-    require('unplugin-starter/webpack')({ /* options */ })
+    require('theme-builder-plugin/webpack')({ /* options */ })
   ]
 }
 ```
@@ -82,7 +82,7 @@ module.exports = {
 // nuxt.config.js
 export default {
   buildModules: [
-    ['unplugin-starter/nuxt', { /* options */ }],
+    ['theme-builder-plugin/nuxt', { /* options */ }],
   ],
 }
 ```
@@ -99,7 +99,7 @@ export default {
 module.exports = {
   configureWebpack: {
     plugins: [
-      require('unplugin-starter/webpack')({ /* options */ }),
+      require('theme-builder-plugin/webpack')({ /* options */ }),
     ],
   },
 }
